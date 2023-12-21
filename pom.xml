@@ -141,14 +141,6 @@
                      <groupId>org.apache.maven.plugins</groupId>
                      <artifactId>maven-war-plugin</artifactId>
                      <version>3.2.2</version>
-		     <configuration>
-                         <distributionManagement>
-                            <repository>
-                                <id>vprofile-release</id>
-                                <url>http://52.3.245.69:8081/repository/vprofile-Release/</url>
-                            </repository>
-                         </distributionManagement>
-                    </configuration>
                     </plugin>
  		    <plugin>
  		        <groupId>org.jacoco</groupId>
