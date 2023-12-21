@@ -167,7 +167,7 @@
     </build>
 	<repositories>
     <repository>
-      <id>nexus</id>
+      <id>vprofile-release</id>
       <url>http://52.3.245.69:8081/repository/vprofile-release/</url>
     </repository>
   </repositories>
