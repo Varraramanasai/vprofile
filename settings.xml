@@ -28,9 +28,8 @@
 
   <mirrors>
     <mirror>
-      <id>${CENTRAL-REPO}</id>
-      <name>${CENTRAL-REPO}</name>
-      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
+      <id>vprofile-release</id>
+      <url>http://52.3.245.69:8081/repository/vprofile-Release/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
