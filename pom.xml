@@ -4,7 +4,7 @@
     <groupId>com.visualpathit</groupId>
     <artifactId>vprofile</artifactId>
     <packaging>war</packaging>
-    <version>v2</version>
+    <version>0.0.1</version>
     <name>Visualpathit VProfile Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
@@ -167,7 +167,7 @@
     </build>
 	<repositories>
     <repository>
-      <id>vprofile-release</id>
+      <id>nexus</id>
       <url>http://52.3.245.69:8081/repository/vprofile-release/</url>
     </repository>
   </repositories>
