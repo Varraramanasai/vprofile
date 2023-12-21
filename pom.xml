@@ -166,16 +166,12 @@
         </plugins>
     </build>
  <repositories>
-     <repository>
-       <id>${NEXUS-GRP-REPO}</id>
-       <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
-     </repository>
- </repositories>
 <distributionManagement>
-    <repository>
+       <repository>
         <id>vprofile-release</id>
         <url>http://52.3.245.69:8081/repository/vprofile-Release/</url>
     </repository>
 </distributionManagement>
+ </repositories>
 
 </project>
