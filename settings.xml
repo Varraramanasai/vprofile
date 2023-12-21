@@ -26,12 +26,4 @@
     </server>
   </servers>
 
-  <mirrors>
-    <mirror>
-      <id>vprofile-release</id>
-      <url>http://52.3.245.69:8081/repository/vprofile-Release/</url>
-      <mirrorOf>*</mirrorOf>
-    </mirror>
-  </mirrors>
-
 </settings>
