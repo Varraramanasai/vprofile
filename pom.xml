@@ -142,6 +142,20 @@
                      <artifactId>maven-war-plugin</artifactId>
                      <version>3.2.2</version>
                     </plugin>
+	    <configuration>
+                <distributionManagement>
+                    <repository>
+                        <id>nexus</id>
+			<name>vprofile release repository</name>
+                        <url>http://18.210.20.32:8081/repository/vprofile-release/</url>
+                    </repository>
+		    <snapshotrepository>
+			<id>nexus</id>
+			<name>vprofile snapshot repository</name>
+			<url>http://18.210.20.32:8081/repository/vprofile-snapshot/</url>
+		    </snapshotrepository>
+                </distributionManagement>
+            </configuration>
  		    <plugin>
  		        <groupId>org.jacoco</groupId>
  		        <artifactId>jacoco-maven-plugin</artifactId>
