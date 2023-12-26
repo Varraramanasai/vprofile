@@ -142,7 +142,6 @@
                      <artifactId>maven-war-plugin</artifactId>
                      <version>3.2.2</version>
                     </plugin>
-	    <configuration>
                 <distributionManagement>
                     <repository>
                         <id>nexus</id>
@@ -155,7 +154,6 @@
 			<url>http://18.210.20.32:8081/repository/vprofile-snapshot/</url>
 		    </snapshotrepository>
                 </distributionManagement>
-            </configuration>
  		    <plugin>
  		        <groupId>org.jacoco</groupId>
  		        <artifactId>jacoco-maven-plugin</artifactId>
