@@ -5,7 +5,7 @@ FROM openjdk:8-jre-alpine
 WORKDIR /usr/src/app
 
 # Copy the WAR file into the container at the specified working directory
-COPY vprofile-v2.war .
+COPY target/vprofile-v2.war .
 
 # Expose the port that your application will run on
 EXPOSE 8082
