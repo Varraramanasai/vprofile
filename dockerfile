@@ -1,2 +1,2 @@
 FROM tomcat:latest
-COPY vprofile-v2.war /usr/local/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/v-profile/target/vprofile-v2.war /usr/local/tomcat/webapps/
