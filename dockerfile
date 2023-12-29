@@ -8,4 +8,4 @@ EXPOSE 8081
 ADD target/vprofile-v2.war vprofile-v2.war
 
 # Specify the command to run on container start
-ENTRYPOINT ["java", "-war", "/vprofile-v2.war"]
+ENTRYPOINT ["java", "-jar", "/vprofile-v2.war"]
